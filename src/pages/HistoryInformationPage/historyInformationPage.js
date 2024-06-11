@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from "../common/Navbar/navbar";
-import "./HistoryInformation.css";
+import "./historyInformation.css";
 
 const HistoryInformationPage = () => {
     const [data, setData] = useState();
