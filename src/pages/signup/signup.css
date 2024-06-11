@@ -1,0 +1,64 @@
+/* signup.css */
+
+body {
+    background-color: #000; /* Set the background color to black */
+    color: #fff; /* Set the text color to white */
+    font-family: Arial, sans-serif; /* Set the font family */
+}
+.main-heading{
+   
+    margin-bottom: 40PX;
+    color:red;
+  }
+.sign-up-main-container {
+    margin-top: 100px;
+   margin-left: 550px;
+  margin-bottom: 100px ;
+    background: #111;
+    width:500px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 10.5px 4.5px 11px 0 #000000;
+    -moz-box-shadow: 10.5px 4.5px 11px 0 #000000;
+    box-shadow: 10.5px 4.5px 11px 0 #000000;
+    height: 600px; /* Full viewport height */
+}
+
+.sign-up-main-container input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 500px;
+    max-width: 300px;
+    background-color: #333; /* Dark background for inputs */
+    border: 1px solid #555; /* Border for inputs */
+    color: #fff; /* Text color for inputs */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.sign-up-main-container input:hover {
+    background-color: #444; /* Slightly lighter background on hover */
+    border-color: #777; /* Lighter border on hover */
+}
+
+.sign-up-main-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 80%;
+    height:50px;
+    max-width: 320px;
+    background-color: #555; /* Dark background for button */
+    border: none; /* Remove border */
+    color: #fff; /* Text color for button */
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.sign-up-main-container button:hover {
+    background-color: #777; /* Slightly lighter background on hover */
+}

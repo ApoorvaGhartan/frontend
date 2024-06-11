@@ -1,0 +1,44 @@
+/* historyCard.css */
+
+/* historyCard.css */
+
+.history-card {
+     width:400px;
+     height: 300px;
+    border: 1px solid #555; /* Dark border color */
+    padding: 16px;
+    background-color: #111; /* Dark background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    border:  none;
+}
+
+.history-card:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4); /* Enhanced shadow on hover */
+}
+
+.history-card h4 {
+    color: #fff; /* White text color */
+    font-size: 2rem; /*3rem Increased font size */
+    margin-bottom: 10px; /* Add margin below heading */
+}
+
+.history-card p {
+    color: #ddd; /* Light gray text color */
+    margin: 8px 0; /* Add margin */
+    
+}
+
+.history-card a {
+    color: red; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as block */
+    margin-top: 10px; /* Add margin */
+    font-size: 1.5rem;
+}
+
+.history-card a:hover {
+    color: gray; /* Red link color on hover */
+}

@@ -1,0 +1,31 @@
+/* Card Container */
+.cardd {
+    background-color: #222; /* Dark grey background for the card */
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 50px auto; /* Center the card and add vertical spacing */
+    max-width: 800px; /* Maximum width for the card */
+    padding: 20px; /* Padding inside the card */
+}
+
+/* Custom Styles */
+.custom-styles {
+    color: white;
+    padding: 48px;
+}
+
+/* Heading */
+.heading h3 {
+    color: red; /* Red color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center-align the heading */
+}
+
+/* Image */
+.cardd img {
+    border-radius: 10px; /* Smooth corners for the image */
+    display: block; /* Make image a block element */
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+}

@@ -1,0 +1,68 @@
+
+
+.image-generator-main-container{
+    color: white;
+    padding: 24px;
+   
+    margin-top: 50px; 
+    text-align: center;
+    h1{
+        color: red;
+    }
+  
+
+}
+
+.image-search{
+    border-radius: 12px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+  
+   
+    img{
+        width: 300px;
+    }
+    
+    div button{
+      
+          height: 50px;
+          width:50px;
+          border-radius: 60%;
+          border-radius: 12%;
+         background:white;
+         margin-right: 0px;
+         margin-left: 0px;
+       
+    }
+    div input{
+       
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 900px;
+    background-color:#111; /* Dark background for inputs */
+    border: 1px solid #555; /* Border for inputs */
+    color: #fff; /* Text color for inputs */
+    border-radius: 5px; 
+   
+    
+    }
+
+    div button img {
+         /* Make the image circular */
+        height: 44px; /* Set height */
+        width: 44px; /* Set width */
+        background: none; /* Ensure no background is applied */
+        border: none; /* Remove any border */
+       
+    }
+        
+       
+
+    }
+    
+   

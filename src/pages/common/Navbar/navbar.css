@@ -1,0 +1,43 @@
+.header-parent-container{
+    box-shadow: rgba(218, 216, 210, 0.1) 0px 10px 10px -10px;
+    display: flex;
+    background-color: rgb(22, 22, 22);
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    color: white;
+    height: 50px;
+    
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 15px;
+    }
+
+    .left{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .right{
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        background-color: burlywood;
+    }
+}
+.button-design{
+    color:white;
+    height:40px;
+    width:40px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    margin-right: 30px;
+}
+.button-design:hover{
+    color: red;
+}
