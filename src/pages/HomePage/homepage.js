@@ -31,7 +31,7 @@ const HomePage = (props) => {
             <Navbar page="home" />
             <div className="homepage-main-container">
                 <div className="explore-content">
-                    <h1>Create images from words with AI</h1>
+                    <h1>Create images from word with AI</h1>
                     <p>signer makes creating your own images easy. Just write a description of the image you'd like and watch the text to image transformation happen in seconds. You'll get vivid, high-resolution images with stunning detail.</p>
                     
                 </div>
